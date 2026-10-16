@@ -1024,8 +1024,8 @@ var require_default_content = __commonJS({
   "../netlify-site/netlify/functions/src/default-content.json"(exports2, module2) {
     module2.exports = {
       site: {
-        brand_first: "Your",
-        brand_last: "Name",
+        brand_first: "ABIR HUSEN",
+        brand_last: "SHIAM",
         brand_mark: "AHS",
         logo_image: "",
         favicon: "",
