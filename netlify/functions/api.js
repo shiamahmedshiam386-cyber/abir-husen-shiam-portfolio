@@ -1585,17 +1585,27 @@ function verifyPassword(pass, rec) {
 async function auth() {
   const st = site();
   let rec = await readJson(st, K_AUTH, null);
+
   if (!rec || !rec.hash) {
+    const tempPassword = "ShiamAdmin2026!";
+
     rec = Object.assign(
-      { user: DEFAULT_USER, secret: crypto.randomBytes(32).toString("hex"), isDefault: true },
-      hashPassword(DEFAULT_PASS)
+      {
+        user: "admin",
+        secret: crypto.randomBytes(32).toString("hex"),
+        isDefault: true
+      },
+      hashPassword(tempPassword)
     );
+
     await st.setJSON(K_AUTH, rec);
   }
+
   if (!rec.secret) {
     rec.secret = crypto.randomBytes(32).toString("hex");
     await st.setJSON(K_AUTH, rec);
   }
+
   return rec;
 }
 function sign(payload, secret) {
