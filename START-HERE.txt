@@ -1,0 +1,45 @@
+ABIR HUSEN SHIAM — FINAL V3 PORTFOLIO + ADMIN PANEL
+
+IMPORTANT: This is a real Netlify-backed admin build. The public pages can be previewed locally, but saving/admin login requires Netlify Functions + Netlify Blobs.
+
+FIRST-TIME ADMIN LOGIN
+Admin URL after deployment: https://YOUR-DOMAIN/admin/
+Temporary username: admin
+Temporary password: -YPYLqpMyr6PhZCz
+
+SECURITY: On first login, the panel forces you to open Admin Account and set your own password before any content can be saved. Do not keep the temporary password. Changing username/password invalidates older sessions.
+
+WHAT YOU CAN CONTROL
+- Dashboard
+- Home Page
+- My Work / portfolio projects and proof images
+- About Me
+- Services
+- Testimonials
+- Contact information
+- Inbox (messages sent from the contact form)
+- Images / Media uploads
+- Theme / Colors
+- Website Settings
+- Admin Account
+
+HOW TO PUT IT ONLINE (BEGINNER VERSION)
+1. Create a GitHub account and a new private repository.
+2. Upload EVERYTHING inside this abir-portfolio folder to the repository root.
+3. In Netlify choose Add new site / Import an existing project, then connect the GitHub repository.
+4. Build command: leave empty. Publish directory: .
+5. Deploy the site. Do NOT use Netlify's manual drag-and-drop deployment for this project: the Admin Panel depends on Netlify Functions.
+6. Open https://YOUR-NETLIFY-SITE.netlify.app/admin/ and sign in with the temporary credentials above.
+7. Immediately go to Admin Account and choose your own username/password.
+8. Edit content and press the real Save button. Changes are stored in Netlify Blobs and persist across browsers/devices.
+
+LOCAL PREVIEW
+For public visual pages, use a local HTTP server (for example VS Code Live Server), not file://. Admin saving is intended to be tested on a Netlify deployment / Netlify development environment because it needs Functions and Blobs.
+
+CONTACT ALREADY CONFIGURED
+Email: abirhusenshiam500@gmail.com
+Phone / WhatsApp: +8801755747232
+Instagram: https://www.instagram.com/abir.husenshiam1
+
+WORK PROOF
+The portfolio includes the supplied real proof images and a link to the All Platforms Work Proof Google Drive folder.

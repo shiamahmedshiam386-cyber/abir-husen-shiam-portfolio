@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 900" preserveAspectRatio="xMidYMid slice">
+<defs>
+ <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#121A2B"/><stop offset="1" stop-color="#090D16"/></linearGradient>
+ <linearGradient id="ac" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#35E0F0"/><stop offset="1" stop-color="#7B5CFF"/></linearGradient>
+ <radialGradient id="gl" cx="50%" cy="34%" r="58%"><stop offset="0" stop-color="#7B5CFF" stop-opacity=".38"/><stop offset="1" stop-color="#7B5CFF" stop-opacity="0"/></radialGradient>
+</defs>
+<rect width="760" height="900" fill="url(#bg)"/>
+<rect width="760" height="900" fill="url(#gl)"/>
+<g stroke="#ffffff" stroke-opacity=".05">
+ <path d="M0 180h760M0 360h760M0 540h760M0 720h760"/>
+ <path d="M152 0v900M304 0v900M456 0v900M608 0v900"/>
+</g>
+<circle cx="380" cy="320" r="118" fill="url(#ac)" opacity=".92"/>
+<path d="M380 458c-124 0-217 82-236 200-4 27 9 44 36 44h400c27 0 40-17 36-44-19-118-112-200-236-200z" fill="url(#ac)" opacity=".92"/>
+<circle cx="380" cy="320" r="118" fill="#05070E" opacity=".14"/>
+</svg>

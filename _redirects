@@ -1,0 +1,5 @@
+# the site API (Netlify Function)
+/api/*        /.netlify/functions/api/:splat   200!
+
+# never serve the function's own source as a web page
+/netlify/*    /index.html   404
