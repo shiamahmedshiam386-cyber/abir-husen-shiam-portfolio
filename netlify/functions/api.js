@@ -1076,13 +1076,13 @@ var require_default_content = __commonJS({
         stats: [
           {
             prefix: "",
-            value: "250",
+            value: "10000",
             suffix: "+",
             label: "Projects Completed"
           },
           {
             prefix: "",
-            value: "120",
+            value: "9500",
             suffix: "+",
             label: "Happy Clients"
           },
@@ -1094,7 +1094,7 @@ var require_default_content = __commonJS({
           },
           {
             prefix: "$",
-            value: "1.2",
+            value: "5.2",
             suffix: "M+",
             label: "Ad Spend Managed"
           }
